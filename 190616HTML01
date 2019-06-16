@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <!-- SEO(검색엔진 최적화)를 위해 검색엔진이 사용할 keywords을 정의한다. -->
+    <meta name="description" content="Web tutorials on HTML and CSS">
+    <!-- 웹페이지의 설명을 정의한다 -->
+    <meta name="author" content="John Doe">
+    <!-- 웹페이지의 저자를 명기한다 -->
+    <meta http-equiv="refresh" content="30">
+    <!-- 웹페이지를 30초 마다 Refresh -->
+    <title>Hello World</title>
+    <link rel="stylesheet" href="190616HTML01.css">
+    <script src="main.js"></script>
+    <script>
+      document.addEventListener('click', function () {
+        alert('Clicked!');
+      });
+    </script>
+    <style>
+      body {
+        background-color: yellow;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>안녕하세요! HTML5</p>
+    <!-- IACS2019 사진 -->
+    <img src="https://ex.kemlu.go.id//bucharest/id/berita-agenda/berita-perwakilan/PublishingImages/IACS2019.jpg" width="104" height="142">
+  </body>
+</html>
